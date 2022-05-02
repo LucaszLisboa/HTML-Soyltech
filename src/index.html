@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soyltech</title>
+    <link href="/src/images/icone.ico" rel="icon" />
+  </head>
+  <style>
+    body {
+      background-image: linear-gradient(
+        360deg,
+        rgba(0, 247, 255, 0.705),
+        rgba(208, 255, 0, 0.719)
+      );
+      color: black;
+      font-size: 22px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    header {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0));
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      padding-right: 40px;
+      padding-left: 40px;
+    }
+    h1 {
+      background-color: #00000086;
+      color: rgb(5, 5, 5);
+      text-align: center;
+      padding: 10px;
+    }
+    .intro {
+      text-align: center;
+      font-size: 24px;
+    }
+
+    .problems ul {
+      padding-top: 20px;
+      padding-left: 150px;
+      padding-bottom: 20px;
+    }
+    .hardware {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .cellphones {
+      padding-top: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .text-app {
+      text-align: center;
+      padding-bottom: 50px;
+    }
+    .img {
+      display: flex;
+      justify-content: center;
+      padding-bottom: 50px;
+    }
+  </style>
+
+  <body>
+    <header>
+      <nav class="logo">
+        <img
+          src="\src\images\logo.png"
+          alt="Soyltech logo"
+          width="auto"
+          height="100px"
+        />
+      </nav>
+      <nav class="home">
+        <a href="index.html">
+          <img
+            src="\src\images\home.png"
+            alt="Home"
+            width="auto"
+            height="50px"
+          />
+        </a>
+      </nav>
+      <nav class="sobre">
+        <a href="historia.html">
+          <img
+            src="\src\images\atencao.png"
+            alt="Sobre"
+            width="auto"
+            height="50px"
+          />
+        </a>
+      </nav>
+    </header>
+    <hr size="6" color="black" />
+
+    <h1>Sobre a Empresa</h1>
+    <div class="intro">
+      <p>
+        <strong>
+          A Soyltech é um meio de inovação para verificação de nutrientes do
+          solo. <br />
+          Foi fundada em 2022 na cidade de Londrina, sendo uma aposta de
+          inovação que ajudará no mercado agrícola.</strong>
+      </p>
+    </div>
+
+    <div class="problems">
+      <ul>
+        <strong> Observamos alguns problemas ao criar nossa solução:</strong>
+        <li>
+          A falta de macronutrientes impacta no crescimento da planta, afetando
+          a sua produtividade.
+        </li>
+        <li>
+          Atualmente, a análise de macronutrientes é realizada antes do plantio,
+          havendo a necessidade de envio da amostra para um laboratório.
+        </li>
+        <p>
+          Através desses problemas, nossa solução foi criar um sensor em tempo
+          real de macronutrientes que permite a correção dos mesmos durante a
+          safra.
+        </p>
+      </ul>
+    </div>
+
+    <nav class="hardware">
+      <figure>
+        <img
+          src="\src\images\hardware.png"
+          alt="sensor"
+          width="auto"
+          height="520px"
+        />
+      </figure>
+
+      <div class="list-hardware">
+        <ul>
+          <h2>Estação de medição contendo:</h2>
+
+          <li>
+            <strong>Sensor NPK</strong>
+            <ul>
+              Sensor que faz a verificação de nutrientes do solo, sendo eles:
+              <li>Nitrogênio</li>
+              <li>Fósforo</li>
+              <li>Potássio</li>
+            </ul>
+          </li>
+          <br />
+          <li>
+            <strong>Comunicação sem fio com a internet</strong>
+            <ul>
+              Estabelece uma comunicação através de:
+              <li>Roteador</li>
+              <li>Repetidor</li>
+            </ul>
+          </li>
+          <br />
+          <li>
+            <strong>Painel solar para carregamento da bateria</strong>
+            <ul>
+              Pode trazer beneficios como:
+              <li>Mais durabilidade</li>
+              <li>Sem consumo de energia</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="cellphones">
+      <img
+        src="\src\images\aplicativo-1.png"
+        alt=""
+        width="auto"
+        height="auto"
+      />
+      <img
+        src="\src\images\aplicativo-2.png"
+        alt=""
+        width="auto"
+        height="auto"
+      />
+      <img
+        src="\src\images\aplicativo-3.png"
+        alt=""
+        width="auto"
+        height="auto"
+      />
+      <img
+        src="\src\images\aplicativo-4.png"
+        alt=""
+        width="auto"
+        height="auto"
+      />
+    </div>
+    <div class="text-app">
+      <h3>MAIOR FACILIDADE NO ACESSO DE DADOS</h3>
+      <p>
+        Através do nosso aplicativo, vinculado aos sensores do nosso
+        hardware,<br />
+        o usuário conta com um acompanhamento em tempo real dos níveis dos
+        macronutrientes presentes no solo,<br />
+        <strong
+          >os nutrientes em níveis adequados pode melhorar a produção em até
+          48%</strong
+        >
+      </p>
+    </div>
+    <div class="img">
+      <img src="/src/images/logo.png" alt="Logo Soyltech" width="auto" height="120px">
+    </div>
+  </body>
+</html>
